@@ -12,26 +12,49 @@
 text-align: center;    
 }
 .box{
-    padding: 5px;
-    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+
 }
 /* Temp Backgorund placeholder */
 .tempBackground{
     background: rgb(103, 103, 230);
+    border: 3px solid grey;
+
 }
 /* add these classes on fav color request */
 .red{
     background: red;
+    border: 3px solid grey;
+
 }
 .blue{
     background: blue;
+    border: 3px solid grey;
+
 }
 .green{
     background: green;
+    border: 3px solid grey;
+
 }
 .yellow{
     background: yellow;
+     border: 3px solid grey;
 }
 .pink{
     background: pink;
+    border: 3px solid grey;
+
+}
+.link{
+    color: black;
+    font-size: 1.4vw;
+}
+.link:hover{
+    color: grey;
+}
+.body{
+background: url(./images/angryimg.png);
 }
